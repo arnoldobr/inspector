@@ -1,6 +1,7 @@
 Para que inspector quede bien instalado debes crear una carpeta "private" en la carpeta inspector:
+```shell
 $ mkdir -p carpeta_inspector/private
-
+```
 y en esta carpeta debes crear un archivo llamado config.php con la siguiente información:
 
 ================ Contenido de config.php =========================
