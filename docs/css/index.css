@@ -1,0 +1,60 @@
+:root{
+    --anchotabla: 300px;
+    --anchografa: calc(90vw - var(--anchotabla));
+    --anchografb: calc(55vw - var(--anchotabla));
+}
+
+
+html{
+    font-family: sans-serif;
+    font-size: .9rem;
+}
+
+
+#formulario,
+#tabla,
+#graficoa,
+#graficob{
+    padding: 10px;
+}
+
+#formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: solid 3px #363636;
+}
+
+
+#tabla{
+    float: left;
+    width: var(--anchotabla); 
+    margin: 10px;
+}
+
+#graficoa{
+    width: var(--anchografa);
+    float: left;
+    margin: 10px;
+    border-bottom: solid 3px #363636;
+}
+
+#graficob{
+    width: var(--anchografb);
+    float: left;
+}
+
+table thead{
+    background-color: #04AA6D;
+    color: #fff;
+}
+
+td,th{
+    padding: 5px;
+}
+
+tr.total td{
+    border-top: solid 1px gray;
+    border-bottom: solid 2px #545454;
+
+}

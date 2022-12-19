@@ -1,0 +1,1 @@
+/home/arnoldobr/public_html/git/inspector/private/config.php
